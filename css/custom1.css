@@ -1,0 +1,73 @@
+/* START -- Sub-Collections breadcrumb -- START */
+
+prm-collection-discovery prm-collection-navigation-breadcrumbs-item .md-button.button-as-link.link-alt-color {
+  color: #fff;
+}
+
+/* END -- Sub-Collections breadcrumb -- END */
+
+/* START -- Sub-Collections breadcrumb hover and focus -- START */
+
+prm-collection-discovery:hover prm-collection-navigation-breadcrumbs-item:hover .md-button.button-as-link.link-alt-color:hover,
+prm-collection-discovery-view-switcher .md-button.is-active:hover:hover:not([disabled]),
+prm-collection-discovery-view-switcher .md-button.is-active:hover:not([disabled]),
+prm-collection-discovery-view-switcher .md-button.is-active:focus:focus:not([disabled]),
+prm-collection-discovery-view-switcher .md-button.is-active:focus:not([disabled]) {
+  background-color: #73529f;
+}
+
+/* END -- Sub-Collections breadcrumb hover and focus -- END */
+
+/* START -- The following code will modify the URL within the description field a Collection that contains a specific URL -- START */
+
+a[href="Your URL"] {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* END -- The following code will modify the URL within the description field a Collection that contains a specific URL -- END */
+
+/* START -- Collection Discovery Top Banner -- START */
+
+.prm-explore-main .header .transparent-top-bar div,
+prm-explore-main .header,
+prm-explore-main .header .transparent-top-bar:before {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+prm-collection-gallery-header .collection-header-inner.has-transparent-topbar,
+.collection-header-inner,
+.collection-header-inner.has-backdrop-image::before {
+  background-image: none !important;
+  background-color: #73529f !important;
+  opacity: unset !important;
+  z-index: 0;
+}
+
+/* END -- Collection Discovery Top Banner -- END */
+
+/* START -- Collection Disocery author and date -- START */
+
+prm-gallery-item-after {
+  padding: 20px 15px;
+  display: flex;
+  flex-direction: column;
+  margin-top: -30px;
+}
+
+prm-gallery-item-after div {
+  margin-bottom: -45px;
+  margin-top: -10px;
+}
+
+.is-grid-view prm-gallery-item .collection-element {
+  padding: 15px;
+}
+
+prm-gallery-item .collection-element .item-title {
+  padding-bottom: 30px;
+}
+
+/* END -- Collection Disocery author and date -- END */
